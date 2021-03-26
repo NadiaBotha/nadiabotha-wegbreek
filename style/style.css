@@ -1,0 +1,418 @@
+/*Home Page - Landing Page*/
+
+#landing-page {
+    height:100vh;
+    width:100%;
+}
+
+
+/*Landing Page - content*/
+#landing-page .landing-content{
+    height:100%;
+    width:100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+
+#landing-page .landing-content h1{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+#landing-page .landing-content p{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+#landing-page .landing-content a{
+    transition: opacity 0.5s ease;
+}
+
+
+/*Landing page background*/
+#landing-page{
+    background: url("../images/landing page/landing\ page.jpg") no-repeat center center/cover;
+    position:relative;
+}
+
+#landing-page::before{
+    content:'';
+    background: rgba(0,0,0,0.4);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    
+}
+
+#landing-page .landing-content *{
+    z-index: 1;
+}
+
+/*About us*/
+#about-page{
+    background: url("../images/about us/about_us.PNG") no-repeat center center/cover;
+    height:50vh;
+    width:100%;
+    position:relative;
+}
+
+#about-page .about-heading{
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /*font-size: 50px;*/
+
+}
+
+#about-page .about-heading h1{
+    font-size:50px;
+    color:white;
+    z-index: 1;
+}
+
+#about-page::before{
+    content:'';
+    background: rgba(128, 98, 98, 0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+#about-page .navbar{
+    z-index: 1;
+}
+
+#about-location .flex-content a {
+    transition: all 0.5s ease;
+}
+
+#about-guesthouse .flex-content a {
+    transition: all 0.5s ease;
+}
+
+#testimonials{
+    background: url("../images/about us/testimonial_background.PNG") no-repeat center center/cover;
+    position:relative;
+    padding-bottom: 50px;
+}
+
+#testimonials::before{
+    content:'';
+    background:rgba(0,0,0,0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+
+
+.page-container{
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+
+
+#testimonials h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size:40px;
+    position:relative;
+    top:20px;
+    color:white;
+}
+
+
+/*Overall Rating*/
+#overall-ratings .page-container h1, 
+#overall-ratings .page-container h2{
+    text-align:center;
+}
+
+#overall-ratings .page-container h2{
+    padding-bottom:20px;
+}
+
+#overall-ratings .page-container .rating-full-container{
+    background: var(--primary-color);
+    padding:20px;
+    text-align: center;
+}
+
+#overall-ratings .page-container .rating-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#overall-ratings .page-container .rating-container .rating-item{
+    flex:1;
+    margin-top:10px;
+
+}
+
+#overall-ratings .page-container .rating-container .rating-item{
+    padding:10px;
+    background: var(--tertiary-color);
+    margin:5px 5px;
+    border-radius:5px;
+}
+
+#overall-ratings h1{
+    font-size: 40px;
+}
+
+#overall-ratings p {
+    text-align: center;
+}
+
+#overall-ratings a{
+    transition:all 0.5s ease;
+}
+
+#rooms-page{
+    background: url("../images/rooms/rooms.PNG") no-repeat center center/cover;
+    height:50vh;
+    width:100%;
+    position:relative;
+}
+
+#rooms-page .rooms-heading{
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+
+#rooms-page .rooms-heading h1{
+    font-size:50px;
+    color:white;
+    z-index: 1;
+}
+
+#rooms-page::before{
+    content:'';
+    background: rgba(128, 98, 98, 0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+#room-description .page-container h2{
+    text-align: center;
+}
+
+#room-description .page-container p{
+    text-align: justify;
+}
+
+
+#gallery .page-container h1{
+    font-size: 30px;
+    padding-top:30px;
+}
+
+#gallery .page-container h1,
+#gallery .page-container p{
+    padding:10px;
+    text-align: center;
+
+}
+
+#gallery .page-container h2{
+    text-align: center;
+}
+
+#gallery img:hover{
+    opacity: 0.7;
+}
+
+.flex-container-five .gallery-item img{
+    height:250px;
+    padding:10px;
+}
+
+.navbar{
+    background: rgba(68,68,68,0.8);
+}
+
+.top{
+    background: transparent;
+}
+
+#awards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#awards-container h1{
+    font-size: 40px;
+}
+
+#activities .page-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+#explore-page{
+    background: url("../images/explore/9\ Cinsaut\ St\,\ Steynsrust\ LOWRES-17.jpg") no-repeat center center/cover;
+    height:50vh;
+    width:100%;
+    position:relative;
+}
+
+
+#explore-page .explore-heading{
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+}
+
+#explore-page .explore-heading h1{
+    font-size: 50px;
+    z-index: 1;
+}
+
+#explore-page::before{
+    content:'';
+    background: rgba(128, 98, 98, 0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.maps:hover{
+    opacity: 0.8;
+}
+
+.award-badge{
+    margin-top: 30px;
+}
+
+#contact-page{
+    background: url("../images/contact/contact\ header.jpg") no-repeat center center/cover;
+    height:50vh;
+    width:100%;
+    position:relative;
+}
+
+#contact-page .contact-heading{
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#contact-page .contact-heading h1{
+    font-size: 50px;
+    z-index: 1;
+}
+
+#contact-page::before{
+    content:'';
+    background: rgba(128, 98, 98, 0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+#contact-container .flex-container .flex-column .flex-content p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-group{
+    margin:10px 0px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+    padding:10px 0px;
+    width:100%;
+    border:3px var(--primary-color) solid;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    outline-color: var(--secondary-color);
+}
+
+
+.contact-form input{
+    width:100%;
+    margin-left:0px;
+    font-size: 20px;
+}
+
+#contact-container .flex-column .flex-image:hover{
+    opacity: 0.8;
+}
+
+#myBtn{
+    position:fixed;
+    bottom:180px;
+    right:5px;
+}
+
+.up-button{
+    padding:15px;
+    color:white;
+    background: var(--secondary-color);
+    border:3px solid var(--tertiary-light);
+    border-radius:50%;
+    transition: all 0.5s ease;
+}
+
+.up-button:hover{
+    background: var(--tertiary-light);
+}
+
+.book-button{
+    position:fixed;
+    bottom:100px;
+    right:5px;
+}
+
+
+
+
+
+
+
+
+
+
