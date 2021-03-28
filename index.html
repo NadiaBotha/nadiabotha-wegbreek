@@ -18,7 +18,7 @@
 </head>
 <body>
     <header id="landing-page">
-        <div class="navbar top">
+        <div id="navbar" class="navbar top">
             <div class="logo">
                 <a href="index.html"><h1>Wegbreek</h1></a> 
                 <h3>Self Catering</h3>
@@ -42,5 +42,18 @@
 
     <a href="https://book.nightsbridge.com/28101" class="book-button up-button" target="_blank"><i class="far fa-calendar-alt fa-2x"></i></a>
     
+    <script>
+        const navbar = document.getElementById('navbar');
+ 
+
+        window.onscroll = function(){
+            if(window.pageYOffset > 20) {
+                navbar.classList.remove('top');
+            } else {
+                navbar.classList.add('top');
+            }
+        };
+    </script>
+
 </body>
 </html>
