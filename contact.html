@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style/utilities.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/lightbox.min.css">
-    <title>Wegbreek Self Catering | Welcome</title>
+    <title>Wegbreek Self Catering | Contact</title>
 </head>
 
 <body id="contact">
@@ -30,7 +30,7 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="explore.html">Explore</a></li>
                 <li><a href="contact.html" class="current-page">Contact</a></li>
-                <li> <a href="https://book.nightsbridge.com/28101" target="_blank">Book</a></li>
+                <li class="hide"> <a href="https://book.nightsbridge.com/28101" target="_blank">Book</a></li>
             </ul>
         </div>
         <div class="contact-heading">
@@ -72,6 +72,23 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="contact-info">
+        <div class="flex-container-four">
+            <div class="facilities-item">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>9 Cinsaut Street, Steyn's Rust, Somerset West, 7130, Western Cape</p>
+            </div>
+            <div class="facilities-item">
+                <a href="tel:0795219944"><i class="fas fa-phone-square-alt fa-2x"></i> </a>
+                <p>????</p>
+            </div>
+            <div class="facilities-item">
+                <a href="mailto:nadiamarais@live.co.za"><i class="fas fa-envelope fa-2x"></i></a> 
+                <p>????</p>
+            </div>
+        </div> 
     </section>
 
     <a href="https://book.nightsbridge.com/28101" class="book-button up-button" target="_blank"><i class="far fa-calendar-alt fa-2x"></i></a>
@@ -116,7 +133,7 @@
  
 
         window.onscroll = function(){
-            if(window.pageYOffset > 100) {
+            if(window.pageYOffset > 20) {
                 navbar.classList.remove('top');
             } else {
                 navbar.classList.add('top');

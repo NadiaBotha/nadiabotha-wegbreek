@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style/utilities.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/lightbox.min.css">
-    <title>Wegbreek Self Catering | Welcome</title>
+    <title>Wegbreek Self Catering | Gallery</title>
 </head>
 
 <body>
@@ -27,10 +27,10 @@
             <ul>
                 <li><a href="index.html" >Home</a></li>
                 <li><a href="about.html" >About</a></li>
-                <li><a href="rooms.html"class="current-page">Gallery</a></li>
+                <li><a href="gallery.html"class="current-page">Gallery</a></li>
                 <li><a href="explore.html">Explore</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li> <a href="https://book.nightsbridge.com/28101" target="_blank">Book</a></li>
+                <li class="hide"> <a href="https://book.nightsbridge.com/28101" target="_blank">Book</a></li>
             </ul>
         </div>
         <div class="rooms-heading">
@@ -225,7 +225,7 @@
  
 
         window.onscroll = function(){
-            if(window.pageYOffset > 100) {
+            if(window.pageYOffset > 20) {
                 navbar.classList.remove('top');
             } else {
                 navbar.classList.add('top');

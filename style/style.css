@@ -67,7 +67,6 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    /*font-size: 50px;*/
 
 }
 
@@ -88,7 +87,7 @@
 }
 
 #about-page .navbar{
-    z-index: 1;
+    z-index: 2;
 }
 
 #about-location .flex-content a {
@@ -405,6 +404,19 @@
     position:fixed;
     bottom:100px;
     right:5px;
+}
+
+#contact-info .flex-container-four{
+    margin-top: 30px;
+}
+
+
+#contact-info .facilities-item a{
+    color:var(--secondary-color);
+}
+
+#contact-info .facilities-item a:hover{
+    opacity: 0.8;
 }
 
 
